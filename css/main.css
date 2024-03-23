@@ -12,22 +12,6 @@
     flex-direction: column;
 }
 
-
-.cover1 {
-    display:flex;
-    flex-basis: 420px;
-    flex-grow: 0;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-image: url(../img/Workshop-Pano-1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    margin: 0px;
-    padding: 10px;
-
-}
-
 .cover2 {
     height: 420px;
     background-size: cover;
