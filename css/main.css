@@ -13,11 +13,13 @@
 }
 
 .cover2 {
-    height: 420px;
+    height: 450px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
     background-image: url(../img/Workshop-3.jpg);
+    margin-top: -60px;
+    padding-top: 47px;
 }
 
 .mhdiv{
@@ -69,18 +71,53 @@
     width: 70%;
 
 }
+.c-main2 {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 10px;
+    align-self: center;
+    align-content: normal;
+    align-items: start;
+    width: 50%;
 
-.h1 {
-    width: 110px;
-    height: 30px;
-    font-size: 48px;
 }
 
+.h1 {
+    width: 100%;
+    height: 30px;
+    font-size: 48px;
+    text-align: center;
+}
+
+.h2 {
+    width: 100%;
+    height: 30px;
+    font-size: 32px;
+    text-align: left;
+
+}
+.h2a {
+    width: 100%;
+    height: 30px;
+    font-size: 32px;
+    text-align: center;
+    color: #F05A28;
+
+}
 .p1 {
     width: 345px;
     height: 30px;
     font-size: x-large;
-    text-align: center;
+    
+}
+.pT {
+    width: 100%;
+    text-align: left;
+    font-size: 24px;
 }
 
 .hlogoX {
@@ -108,6 +145,24 @@
     align-self: center;
     width: 1000px;
     background-position: center;
+}
+
+.phone{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/phone-icon3.png);
+}
+
+.location{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/location-icon3.png);
+}
+
+.facebook{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/facebook-icon3.png);
 }
 
 /* Mobile Version 600*/
