@@ -59,7 +59,7 @@
     flex-shrink: 1;
 }
 
-.c-main {
+.main {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -68,9 +68,62 @@
     background-position: top;
     padding: 10px;
     align-self: center;
-    width: 70%;
+    width: 100%;
+}
+.section1 {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 10px;
+    align-self: center;
+    width: 100%;
+}
+
+.s1-d1{
+    display:flex;
+    flex-wrap: wrap;
+    width: 330px;
+    height: 50px;
+}
+
+.s1-d1:hover .phone{
+    background-image: url(../img/phone-icon3b.png);
+}
+
+.s1-d1:hover{
+    color: #F05A28;
+}
+
+.s1-d2{
+    display:flex;
+    width: 330px;
+    height: 50px;
+}
+.s1-d2:hover .location{
+    background-image: url(../img/location-icon3b.png);
 
 }
+
+.s1-d3{
+    display:flex;
+    justify-content: center;
+    width: 330px;
+    height: 50px;
+
+
+}
+
+.textI {
+    width: 260px;   
+    height: 30px;
+    font-size: x-large;
+    margin: 10px;
+    
+}
+
 .c-main2 {
     display:flex;
     flex-wrap: wrap;
@@ -108,6 +161,14 @@
     color: #F05A28;
 
 }
+
+.h2m {
+    width: 100%;
+    height: 30px;
+    font-size: 32px;
+    height: 100px;
+}
+
 .p1 {
     width: 345px;
     height: 30px;
@@ -163,7 +224,53 @@
     width: 50px;
     height: 50px;
     background-image: url(../img/facebook-icon3.png);
+    background-repeat: no-repeat;
+    padding-left: 5px;
 }
+
+.facebook:hover{
+    background-image: url(../img/facebook-icon3b.png);   
+}
+
+.facebook:active{
+    filter: drop-shadow(0px 0px 2px black);
+   
+}
+
+.insta{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/insta-icon.png);
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+
+.insta:hover{
+    background-image: url(../img/insta-icon3b.png);
+}
+
+.insta:active{
+    filter: drop-shadow(0px 0px 2px black);
+}
+
+
+a:link {
+    text-decoration: none;
+  }
+ 
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #F05A28;
+  }
+  
+  a:active {
+    filter: drop-shadow(0px 0px 2px black);
+  }
 
 /* Mobile Version 600*/
 
@@ -171,5 +278,9 @@
 
     .wrapper-main {
         width: 100%;
+    }
+    .c-main2 {
+        width: 90%;
+    
     }
 }
