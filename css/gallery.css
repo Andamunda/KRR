@@ -17,6 +17,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
+    background-color:rgb(218, 218, 218);
     margin-top: -60px;
     padding-top: 47px;
 }
@@ -62,7 +63,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    background-color:dimgray;
     padding: 10px;
     align-self: center;
     width: 100%;
