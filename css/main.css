@@ -13,10 +13,13 @@ src: url(../BebasNeue-Regular-Thinner.ttf);
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
+    max-width: 100%;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .wrapper-main {
-    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -523,7 +526,6 @@ a:link {
     .Meh1{
         display:flex;
         font-weight: 900;
-        height: 40px;
         width: 350px;
         margin: unset;
         align-self: center;
