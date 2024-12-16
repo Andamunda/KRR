@@ -43,11 +43,51 @@ src: url(../BebasNeue-Regular-Thinner.ttf);
     color: white;
     font-weight: 900;
     letter-spacing: 3px;
-    height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
 }
+
+.Cog1{
+    position: absolute;
+    top: 60%;
+    left: 12%;
+    background-image: url(../img/g40.png);
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+.Cog2{
+    position: absolute;
+    top: 3%;
+    left: 1%;
+    background-image: url(../img/g43.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+
+.Cog3{
+    position: absolute;
+    top: 50%;
+    left: 84%;
+    background-image: url(../img/g37.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+}
+
+.Cog4{
+    position: absolute;
+    top: 0%;
+    left: 70%;
+    background-image: url(../img/g46.png);
+    background-repeat: no-repeat;
+    height: 169px;
+    width: 342px;
+}
+
 .Talveperiood{
     flex-wrap: wrap;
     flex-direction: column;
@@ -164,7 +204,6 @@ src: url(../BebasNeue-Regular-Thinner.ttf);
     color: #F05A28;
     font-weight: 900;
     font-size: 52px;
-    height: 60px;
     text-align: center;
     align-self: center;
     margin: unset;
@@ -510,6 +549,5 @@ a:link {
     
     .Orange{
         font-size: 30px;
-        height: 60px;
     }
 }
