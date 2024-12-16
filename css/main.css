@@ -79,8 +79,8 @@ html {
 
 .Cog3{
     position: absolute;
-    top: 50%;
-    left: 84%;
+    top: 35%;
+    right: 5%;
     background-image: url(../img/g37.png);
     background-repeat: no-repeat;
     height: 200px;
@@ -91,7 +91,7 @@ html {
 .Cog4{
     position: absolute;
     top: 0%;
-    left: 70%;
+    right: 0%;
     background-image: url(../img/g46.png);
     background-repeat: no-repeat;
     height: 169px;
