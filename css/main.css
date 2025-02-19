@@ -5,7 +5,7 @@
 
 @font-face {
 font-family: BebasNeueThin;
-src: url(../BebasNeue-Regular-Thinner.ttf);
+src: url(../BebasNeue-Thin.ttf);
 }
 
 html {
@@ -34,7 +34,7 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    background-image: url(../img/Workshop-3.jpg);
+    background-image: url(../img/Workshop-6_3k.jpg);
     margin-top: -60px;
     padding-top: 47px;
 }
@@ -45,7 +45,6 @@ html {
     display: flex;
     align-self: center;
     justify-content: center;
-    font-family: BebasNeue;
     background-color: #231f20;
     color: white;
     font-weight: 900;
@@ -115,7 +114,8 @@ html {
     text-align: center;
 }
 
-.string1{ 
+.string1{
+    font-family: BebasNeue;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -148,6 +148,7 @@ html {
 }
 
 .Kuu1{
+    font-family: BebasNeueThin;
     color: rgb(140, 140, 140);
     display:flex;
     font-weight: 100;
@@ -173,6 +174,7 @@ html {
     margin: unset;
 }
 .EEL{
+    font-family: BebasNeueThin;
     display:flex;
     text-align: center;
     color: rgb(140, 140, 140);
@@ -193,6 +195,7 @@ html {
 }
 
 .Too1{
+    font-family: BebasNeue;
     display:flex;
     font-weight: 900;
     width: 158px;
@@ -201,6 +204,7 @@ html {
     justify-content: center;
 }
 .Too2{
+    font-family: BebasNeueThin;
     display:flex;
     color: rgb(140, 140, 140);
     font-weight: 100;
@@ -210,6 +214,7 @@ html {
 }
 
 .Orange{
+    font-family: BebasNeue;
     display:flex;
     flex-wrap: wrap;
     color: #F05A28;
@@ -282,7 +287,6 @@ html {
 
 .s1-d1{
     display:flex;
-    width: 330px;
     height: 50px;
     margin: 0;
 }
@@ -298,7 +302,6 @@ html {
 
 .s1-d2{
     display:flex;
-    width: 330px;
     height: 50px;
     margin: 0;
 }
