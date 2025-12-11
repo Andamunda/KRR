@@ -8,19 +8,18 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 
+<script src="js/NotASummer.js"></script> <!--This script changes on winter version of the site automatically-->
+
 <body class="body-main">
     <div class="wrapper-main">
-        <!-- To change on winter version of the site uncomment next green part starting from: 
-        !!>header class="coverTalv"<!! until !!>/header<!! 
-        And comment  !!> header class="cover2"<!! until !!>/header<!!-->
-        <!--<header class="cover2">
+        <header id="summer" class="cover2" style="display:none;"> <!--Script changes this automatically-->
             <div class="mhdiv">
                 <div class="hdiv1"></div>
                 <logo class="hlogo1"></logo>
                 <nav class="hnav1"></nav>
             </div>
-        </header>-->
-        <header class="coverTalv">
+        </header>
+        <header id="winter" class="coverTalv" style="display:none;"> <!--Script changes this automatically-->
             <div class="Cog1"></div>
             <div class="Cog2"></div>
             <div class="Cog3"></div>
@@ -66,10 +65,12 @@
                 </div>
             </section>
             <div class="c-main2">
-                <!--<h1 class="h1">Lahtiolekuajad</h1>
+				<div id="summer2" style="display:none;"> <!--Script changes this automatically-->
+                <h1 class="h1">Lahtiolekuajad</h1>
                 <h2 class="h2">E - R: 09:00-18:00</h2>
                 <h2 class="h2">L - P: Kokkulepel</h2>
-                <h2 class="h2m">Võta julgelt ühendust kui soovid tuua ratta väljaspool ametlikku tööaega</h2><br>-->
+                <h2 class="h2m">Võta julgelt ühendust kui soovid tuua ratta väljaspool ametlikku tööaega</h2><br>
+				</div>
                 <h1 class="h1">Hinnakiri</h1><br>
 
                 <h2 class="h2">LIHTHOOLDUS: 40€</h2><br>
