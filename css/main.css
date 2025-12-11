@@ -3,11 +3,12 @@
     src: url(../BebasNeue-Regular.ttf);
   }
 
+/* Have to be Thin, but don't have propper font.
 @font-face {
 font-family: BebasNeueThin;
 src: url(../BebasNeue-Thin.ttf);
 }
-
+*/
 html {
     overflow-x: hidden;
     max-width: 100%;
@@ -148,7 +149,7 @@ html {
 }
 
 .Kuu1{
-    font-family: BebasNeueThin;
+    font-family: BebasNeue; /* Thin */
     color: rgb(140, 140, 140);
     display:flex;
     font-weight: 100;
@@ -174,7 +175,7 @@ html {
     margin: unset;
 }
 .EEL{
-    font-family: BebasNeueThin;
+    font-family: BebasNeue; /* Thin */
     display:flex;
     text-align: center;
     color: rgb(140, 140, 140);
@@ -204,7 +205,7 @@ html {
     justify-content: center;
 }
 .Too2{
-    font-family: BebasNeueThin;
+    font-family: BebasNeue; /* Thin */
     display:flex;
     color: rgb(140, 140, 140);
     font-weight: 100;
