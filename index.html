@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Security-Policy"
+		  content="
+			 default-src 'self';
+			 img-src 'self' https: data:;
+			 style-src 'self' 'unsafe-inline' https:;
+			 script-src 'self' https://maps.googleapis.com https://maps.gstatic.com;
+			 connect-src https://maps.googleapis.com https://maps.gstatic.com;
+			 font-src https:;
+			 frame-src https://www.google.com;
+	">
+	<meta name="keywords" content="
+	bicycle repair, bike repair, bike shop, bicycle maintenance, bicycle service,
+	jalgratta remont, rattapood, jalgratta hooldus, rattahooldus, rattaremont,
+	ремонт велосипедов, веломастерская, обслуживание велосипедов, велосервис,
+	velo remonts, velosipēdu remonts, velos serviss, velo pārbaude,
+	dviračiu remontas, dviračių taisymas, dviračių remonto dirbtuvė, dviračius remontas
+	">
     <link rel="icon" type="image/x-icon" href="/img/Favicon_KRR_200_tr.png">
     <title>Kesklinna Jalgrattaremont</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/test2.css">
+	
 </head>
 
 <script src="js/NotASummer.js"></script> <!--This script changes on winter version of the site automatically-->
+<script src="js/DarkMode.js"></script> <!--Changes to DarkMode depending on user browser settings-->
+<script src="js/random-cogs.js"></script>
 
 <body class="body-main">
+	<div id="cog-container"></div>
     <div class="wrapper-main">
         <header id="summer" class="cover2" style="display:none;"> <!--Script changes this automatically-->
             <div class="mhdiv">
